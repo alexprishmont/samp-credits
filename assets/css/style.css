@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background: #252939;
+}
+.credits {
+  display: table;
+  margin: 0 auto;
+  height: 100%;
+}
+.container {
+  display: grid;
+  min-height: 125px;
+  color: #E9EAEB;
+  font-family: "Raleway";
+  margin-top: 20%;
+  text-align: center;
+  min-width: 386px;
+  padding: 25px 36px;
+}
+.container form {
+  padding-top: 25px;
+}
+.container form input[type='text'] {
+  outline: 0;
+  border: 0;
+  background: #E9EAEB;
+  font-family: "Raleway";
+  height: 30px;
+  padding: 5px 5px 5px 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 97.4%;
+}
+.container form button[type='submit'] {
+  outline: 0;
+  border: 0;
+  font-family: "Raleway";
+  background: #127DF8;
+  color: #E9EAEB;
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: 0.8s;
+  -o-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -webkit-transition: 0.8s;
+}
+.container form button[type='submit']:hover {
+  background: #125db2;
+}
+.container .hello {
+  margin-bottom: 25px;
+}
+.backtoforum {
+  margin-top: 5px;
+}
+.backtoforum a {
+  color: #E9EAEB;
+  text-decoration: none;
+  transition: 0.8s;
+  -o-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -webkit-transition: 0.8s;
+  font-family: "Raleway";
+}
+.backtoforum a:hover {
+  color: #51525D;
+}
+.error {
+  margin-top: 20px;
+  background: #f2dede;
+  border: 1px solid #ebcdd2;
+  padding: 25px 36px;
+  color: #c87675;
+  font-family: "Raleway";
+  font-size: 10pt;
+}
+.success {
+  margin-top: 20px;
+  background: #def0d6;
+  border: 1px solid #d6e9c6;
+  padding: 25px 36px;
+  color: #699264;
+  font-family: "Raleway";
+  font-size: 10pt;
+}
+.makro h3 {
+  cursor: pointer;
+  transition: 0.8s;
+  -o-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -webkit-transition: 0.8s;
+}
+.makro h3:hover {
+  color: #575a68;
+}
+.makro form {
+  display: block;
+}
+.makro form input[type='text2'] {
+  border-radius: 0px !important;
+  outline: 0;
+  border: 0;
+  background: #E9EAEB;
+  font-family: "Raleway";
+  height: 30px;
+  width: 97.4%;
+  padding: 5px 5px 5px 5px;
+}
+table {
+  color: #E9EAEB;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 640px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  border: 1px solid transparent;
+  height: 30px;
+  transition: all 0.3s;
+}
+th {
+  font-weight: bold;
+}
+td {
+  text-align: center;
+}

@@ -2,7 +2,7 @@
 
 
 
-        Author Aleksandr 'sancio' Prišmont
+        Author Aleksandr Prišmont
         @ 2017
         @ pure PHP, jQuery, LESS, mySQL
 
